@@ -2,7 +2,7 @@
 
 SERVICE_NAME=app-runner-github-demo
 AWS_REGION=us-east-1
-REPO_URL='https://github.com/omerh/app-runner-short-clip-demo'
+REPO_URL='https://github.com/SarahBinWang-sea/app-runner-short-clip-demo'
 ACCOUNT_ID=$(aws sts get-caller-identity --query "Account" --output text)
 DYNAMODB_TABLE=app-runner-demo-table
 CONNECTION_NAME=github
