@@ -4,6 +4,8 @@ build:
   env:
     - name: NODE_ENV
       value: production
+    - name: DYNAMODB_DEMO_TABLE
+      value: app-runner-demo-table
   commands:
     pre-build:
       - failePreBuild ; echo "pre-build"
